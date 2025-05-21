@@ -1,11 +1,11 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/home";
 import About from "./components/about";
 import Contact from "./components/contact";
-import Nav from "./components/navbar";
-import Footer from "./components/footer";
 import Projects from "./components/projects";
+import Footer from "./components/footer";
+import Nav from "./components/navbar";
 import "./index.css";
 
 const App = () => {
@@ -14,11 +14,10 @@ const App = () => {
       <Router>
         <Nav />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/portfolio/" element={<Home />} /> {/* Default Home */}
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </Router>

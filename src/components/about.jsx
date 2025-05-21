@@ -9,7 +9,7 @@ const about = () => {
       <h2 className="text-3xl font-bold mb-6 text-center">About Me</h2>
       <p className="text-white text-base mt-6 max-w-xl mx-auto text-center break-words px-4 pb-20 sm:text-lg sm:max-w-3xl">
         My name is Ayush Maurya, a passionate self-taught web developer from
-        Khojapur, a small village in Phulpur, Prayagraj, Uttar Pradesh, India.
+        Khijapur, a small village in Phulpur, Prayagraj, Uttar Pradesh, India.
         <br />
         <br />
         I completed my 12th with average marks, but from a young age, I’ve
