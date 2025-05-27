@@ -2,7 +2,7 @@
   "name": "tailwindcss",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/codewithayush-69/portfolio",
+  "homepage": "https://codewithayush-69.github.io/portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",

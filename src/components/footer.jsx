@@ -10,25 +10,6 @@ const footer = () => {
         <span className="text-2xl font-extrabold text-gradient bg-gradient-to-r from-blue-700 to-red-800 bg-clip-text text-transparent">
           Batman
         </span>
-
-        <div className="flex space-x-4">
-          <a
-            href="https://github.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-blue-400 transition"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://linkedin.com/in/yourprofile"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-blue-400 transition"
-          >
-            LinkedIn
-          </a>
-        </div>
       </div>
     </footer>
   );
